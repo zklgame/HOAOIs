@@ -434,12 +434,20 @@ map<entity_t, GameObject *> TowerAOI::findPublishersInRangeForHO(entity_t objId,
     position_t newTowerMinPosY = newMinPosY / this -> towerHeight;
     position_t newTowerMaxPosX = newMaxPosX / this -> towerWidth;
     position_t newTowerMaxPosY = newMaxPosY / this -> towerHeight;
-//    position_t towerMinPosX = minPosX / this -> towerWidth;
+    position_t towerMinPosX = minPosX / this -> towerWidth;
     position_t towerMinPosY = minPosY / this -> towerHeight;
-//    position_t towerMaxPosX = maxPosX / this -> towerWidth;
+    position_t towerMaxPosX = maxPosX / this -> towerWidth;
     position_t towerMaxPosY = maxPosY / this -> towerHeight;
     
-    for (position_t i = newTowerMinPosX; i <= newTowerMaxPosX; i ++) {
+    for (position_t i = newTowerMinPosX; i <= towerMinPosX; i ++) {
+        for (position_t j = newTowerMinPosY; j <= towerMinPosY; j ++) {
+            partialCoveredTowers.push_back(this -> towers[i][j]);
+        }
+        for (position_t j = towerMaxPosY; j <= newTowerMaxPosY; j ++) {
+            partialCoveredTowers.push_back(this -> towers[i][j]);
+        }
+    }
+    for (position_t i = towerMaxPosX; i <= newTowerMaxPosX; i ++) {
         for (position_t j = newTowerMinPosY; j <= towerMinPosY; j ++) {
             partialCoveredTowers.push_back(this -> towers[i][j]);
         }
@@ -452,12 +460,44 @@ map<entity_t, GameObject *> TowerAOI::findPublishersInRangeForHO(entity_t objId,
         partialCoveredTowers.push_back(this -> towers[newTowerMinPosX][j]);
         partialCoveredTowers.push_back(this -> towers[newTowerMaxPosX][j]);
     }
-    
+    for (position_t i = towerMinPosX + 1; i < towerMaxPosX; i ++) {
+        partialCoveredTowers.push_back(this -> towers[i][newTowerMinPosY]);
+        partialCoveredTowers.push_back(this -> towers[i][newTowerMaxPosY]);
+    }
+
     for (position_t i = newTowerMinPosX + 1; i < newTowerMaxPosX; i ++) {
         for (position_t j = towerMinPosY + 1; j < towerMaxPosY; j ++) {
             fullCoveredTowers.push_back(this -> towers[i][j]);
         }
     }
+    for (position_t i = towerMinPosX + 1; i < towerMaxPosX; i ++) {
+        for (position_t j = newTowerMinPosY + 1; j <= towerMinPosY; j ++) {
+            fullCoveredTowers.push_back(this -> towers[i][j]);
+        }
+        for (position_t j = towerMaxPosY; j < newTowerMaxPosY; j ++) {
+            fullCoveredTowers.push_back(this -> towers[i][j]);
+        }
+    }
+    
+//    for (position_t i = newTowerMinPosX; i <= newTowerMaxPosX; i ++) {
+//        for (position_t j = newTowerMinPosY; j <= towerMinPosY; j ++) {
+//            partialCoveredTowers.push_back(this -> towers[i][j]);
+//        }
+//        for (position_t j = towerMaxPosY; j <= newTowerMaxPosY; j ++) {
+//            partialCoveredTowers.push_back(this -> towers[i][j]);
+//        }
+//    }
+//    
+//    for (position_t j = towerMinPosY + 1; j < towerMaxPosY; j ++) {
+//        partialCoveredTowers.push_back(this -> towers[newTowerMinPosX][j]);
+//        partialCoveredTowers.push_back(this -> towers[newTowerMaxPosX][j]);
+//    }
+//    
+//    for (position_t i = newTowerMinPosX + 1; i < newTowerMaxPosX; i ++) {
+//        for (position_t j = towerMinPosY + 1; j < towerMaxPosY; j ++) {
+//            fullCoveredTowers.push_back(this -> towers[i][j]);
+//        }
+//    }
     
     for (iter = fullCoveredTowers . begin(); iter != fullCoveredTowers . end(); iter ++) {
         pubs = addTwoMaps(pubs, (*iter) -> getPublishers());

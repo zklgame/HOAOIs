@@ -7,27 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E60D02F1CE5726D00465B6D /* EuDistanceAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D02D1CE5726D00465B6D /* EuDistanceAOI.cpp */; };
-		6E60D0331CE582EC00465B6D /* AOIEventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D0311CE582EC00465B6D /* AOIEventManager.cpp */; };
-		6E60D0361CE583A100465B6D /* EuDistanceAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D0341CE583A100465B6D /* EuDistanceAOIService.cpp */; };
-		6E60D03C1CE584C400465B6D /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D0381CE584C400465B6D /* Tower.cpp */; };
-		6E60D03D1CE584C400465B6D /* TowerAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D03A1CE584C400465B6D /* TowerAOI.cpp */; };
-		6E60D0401CE584D200465B6D /* TowerAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D03E1CE584D200465B6D /* TowerAOIService.cpp */; };
-		6E8F79151CE7049000E741D4 /* NTreeAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F79131CE7049000E741D4 /* NTreeAOIService.cpp */; };
-		6E8F791A1CE7970E00E741D4 /* NTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F79161CE7970E00E741D4 /* NTree.cpp */; };
-		6E8F791B1CE7970E00E741D4 /* NTreeAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F79181CE7970E00E741D4 /* NTreeAOI.cpp */; };
-		6E8F791D1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F791C1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp */; };
-		6EB89EBD1CE4B74000043672 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EB91CE4B74000043672 /* GameObject.cpp */; };
-		6EB89EBE1CE4B74000043672 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EBB1CE4B74000043672 /* GameWorld.cpp */; };
-		6EB89EC11CE4B76600043672 /* HOGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EBF1CE4B76600043672 /* HOGameObject.cpp */; };
-		6EB89EC31CE4BB0100043672 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EC21CE4BB0100043672 /* test.cpp */; };
-		6EB89ED11CE4C13500043672 /* AOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EC51CE4C13500043672 /* AOIService.cpp */; };
-		6EB89EEB1CE4C16600043672 /* BaseAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89ED91CE4C16600043672 /* BaseAOI.cpp */; };
-		6ED09A0C1CE5D2630033880E /* EuDistance_TowerAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ED099FD1CE5D2630033880E /* EuDistance_TowerAOI.cpp */; };
+		6E799C291CE8E0F3006F7F79 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C281CE8E0F3006F7F79 /* main.cpp */; };
+		6E799C811CE8E10D006F7F79 /* AOIEventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C301CE8E10D006F7F79 /* AOIEventManager.cpp */; };
+		6E799C821CE8E10D006F7F79 /* BaseAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C341CE8E10D006F7F79 /* BaseAOI.cpp */; };
+		6E799C831CE8E10D006F7F79 /* EuDistanceAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C371CE8E10D006F7F79 /* EuDistanceAOI.cpp */; };
+		6E799C841CE8E10D006F7F79 /* NTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C3A1CE8E10D006F7F79 /* NTree.cpp */; };
+		6E799C851CE8E10D006F7F79 /* NTreeAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C3C1CE8E10D006F7F79 /* NTreeAOI.cpp */; };
+		6E799C861CE8E10D006F7F79 /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C3F1CE8E10D006F7F79 /* Tower.cpp */; };
+		6E799C871CE8E10D006F7F79 /* TowerAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C411CE8E10D006F7F79 /* TowerAOI.cpp */; };
+		6E799C881CE8E10D006F7F79 /* AOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C441CE8E10D006F7F79 /* AOIService.cpp */; };
+		6E799C891CE8E10D006F7F79 /* EuDistanceAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C461CE8E10D006F7F79 /* EuDistanceAOIService.cpp */; };
+		6E799C8A1CE8E10D006F7F79 /* NTreeAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C481CE8E10D006F7F79 /* NTreeAOIService.cpp */; };
+		6E799C8B1CE8E10D006F7F79 /* TowerAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C4A1CE8E10D006F7F79 /* TowerAOIService.cpp */; };
+		6E799C8C1CE8E10D006F7F79 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C4D1CE8E10D006F7F79 /* GameObject.cpp */; };
+		6E799C8D1CE8E10D006F7F79 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C4F1CE8E10D006F7F79 /* GameWorld.cpp */; };
+		6E799C8E1CE8E10D006F7F79 /* HOGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C511CE8E10D006F7F79 /* HOGameObject.cpp */; };
+		6E799C8F1CE8E10D006F7F79 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C531CE8E10D006F7F79 /* test.cpp */; };
+		6E799C901CE8E10D006F7F79 /* EuDistance_NTreeAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C791CE8E10D006F7F79 /* EuDistance_NTreeAOI.cpp */; };
+		6E799C911CE8E10D006F7F79 /* EuDistance_TowerAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C7A1CE8E10D006F7F79 /* EuDistance_TowerAOI.cpp */; };
+		6E799C921CE8E10D006F7F79 /* BasePerformanceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C7C1CE8E10D006F7F79 /* BasePerformanceTest.cpp */; };
+		6E799C931CE8E10D006F7F79 /* EuDistanceAOITest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C7E1CE8E10D006F7F79 /* EuDistanceAOITest.cpp */; };
+		6E799C941CE8E10D006F7F79 /* NTreeAOITest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C7F1CE8E10D006F7F79 /* NTreeAOITest.cpp */; };
+		6E799C951CE8E10D006F7F79 /* TowerAOITest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E799C801CE8E10D006F7F79 /* TowerAOITest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6EB89EAC1CE4B5A000043672 /* CopyFiles */ = {
+		6E799C231CE8E0F3006F7F79 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -39,43 +44,97 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6E60D02D1CE5726D00465B6D /* EuDistanceAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistanceAOI.cpp; sourceTree = "<group>"; };
-		6E60D02E1CE5726D00465B6D /* EuDistanceAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EuDistanceAOI.hpp; sourceTree = "<group>"; };
-		6E60D0301CE582EC00465B6D /* alias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alias.h; sourceTree = "<group>"; };
-		6E60D0311CE582EC00465B6D /* AOIEventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AOIEventManager.cpp; sourceTree = "<group>"; };
-		6E60D0321CE582EC00465B6D /* AOIEventManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AOIEventManager.hpp; sourceTree = "<group>"; };
-		6E60D0341CE583A100465B6D /* EuDistanceAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistanceAOIService.cpp; sourceTree = "<group>"; };
-		6E60D0351CE583A100465B6D /* EuDistanceAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EuDistanceAOIService.hpp; sourceTree = "<group>"; };
-		6E60D0381CE584C400465B6D /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tower.cpp; sourceTree = "<group>"; };
-		6E60D0391CE584C400465B6D /* Tower.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tower.hpp; sourceTree = "<group>"; };
-		6E60D03A1CE584C400465B6D /* TowerAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAOI.cpp; sourceTree = "<group>"; };
-		6E60D03B1CE584C400465B6D /* TowerAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TowerAOI.hpp; sourceTree = "<group>"; };
-		6E60D03E1CE584D200465B6D /* TowerAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAOIService.cpp; sourceTree = "<group>"; };
-		6E60D03F1CE584D200465B6D /* TowerAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TowerAOIService.hpp; sourceTree = "<group>"; };
-		6E8F79131CE7049000E741D4 /* NTreeAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTreeAOIService.cpp; sourceTree = "<group>"; };
-		6E8F79141CE7049000E741D4 /* NTreeAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTreeAOIService.hpp; sourceTree = "<group>"; };
-		6E8F79161CE7970E00E741D4 /* NTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTree.cpp; sourceTree = "<group>"; };
-		6E8F79171CE7970E00E741D4 /* NTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTree.hpp; sourceTree = "<group>"; };
-		6E8F79181CE7970E00E741D4 /* NTreeAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTreeAOI.cpp; sourceTree = "<group>"; };
-		6E8F79191CE7970E00E741D4 /* NTreeAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTreeAOI.hpp; sourceTree = "<group>"; };
-		6E8F791C1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistance_NTreeAOI.cpp; sourceTree = "<group>"; };
-		6EB89EAE1CE4B5A000043672 /* HOAOIs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HOAOIs; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB89EB91CE4B74000043672 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
-		6EB89EBA1CE4B74000043672 /* GameObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
-		6EB89EBB1CE4B74000043672 /* GameWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
-		6EB89EBC1CE4B74000043672 /* GameWorld.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameWorld.hpp; sourceTree = "<group>"; };
-		6EB89EBF1CE4B76600043672 /* HOGameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HOGameObject.cpp; sourceTree = "<group>"; };
-		6EB89EC01CE4B76600043672 /* HOGameObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HOGameObject.hpp; sourceTree = "<group>"; };
-		6EB89EC21CE4BB0100043672 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
-		6EB89EC51CE4C13500043672 /* AOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AOIService.cpp; sourceTree = "<group>"; };
-		6EB89EC61CE4C13500043672 /* AOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AOIService.hpp; sourceTree = "<group>"; };
-		6EB89ED91CE4C16600043672 /* BaseAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseAOI.cpp; sourceTree = "<group>"; };
-		6EB89EDA1CE4C16600043672 /* BaseAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseAOI.hpp; sourceTree = "<group>"; };
-		6ED099FD1CE5D2630033880E /* EuDistance_TowerAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistance_TowerAOI.cpp; sourceTree = "<group>"; };
+		6E799C251CE8E0F3006F7F79 /* HOAOIs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HOAOIs; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E799C281CE8E0F3006F7F79 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6E799C2F1CE8E10D006F7F79 /* alias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alias.h; sourceTree = "<group>"; };
+		6E799C301CE8E10D006F7F79 /* AOIEventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AOIEventManager.cpp; sourceTree = "<group>"; };
+		6E799C311CE8E10D006F7F79 /* AOIEventManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AOIEventManager.hpp; sourceTree = "<group>"; };
+		6E799C341CE8E10D006F7F79 /* BaseAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseAOI.cpp; sourceTree = "<group>"; };
+		6E799C351CE8E10D006F7F79 /* BaseAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseAOI.hpp; sourceTree = "<group>"; };
+		6E799C371CE8E10D006F7F79 /* EuDistanceAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistanceAOI.cpp; sourceTree = "<group>"; };
+		6E799C381CE8E10D006F7F79 /* EuDistanceAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EuDistanceAOI.hpp; sourceTree = "<group>"; };
+		6E799C3A1CE8E10D006F7F79 /* NTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTree.cpp; sourceTree = "<group>"; };
+		6E799C3B1CE8E10D006F7F79 /* NTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTree.hpp; sourceTree = "<group>"; };
+		6E799C3C1CE8E10D006F7F79 /* NTreeAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTreeAOI.cpp; sourceTree = "<group>"; };
+		6E799C3D1CE8E10D006F7F79 /* NTreeAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTreeAOI.hpp; sourceTree = "<group>"; };
+		6E799C3F1CE8E10D006F7F79 /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tower.cpp; sourceTree = "<group>"; };
+		6E799C401CE8E10D006F7F79 /* Tower.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tower.hpp; sourceTree = "<group>"; };
+		6E799C411CE8E10D006F7F79 /* TowerAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAOI.cpp; sourceTree = "<group>"; };
+		6E799C421CE8E10D006F7F79 /* TowerAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TowerAOI.hpp; sourceTree = "<group>"; };
+		6E799C441CE8E10D006F7F79 /* AOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AOIService.cpp; sourceTree = "<group>"; };
+		6E799C451CE8E10D006F7F79 /* AOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AOIService.hpp; sourceTree = "<group>"; };
+		6E799C461CE8E10D006F7F79 /* EuDistanceAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistanceAOIService.cpp; sourceTree = "<group>"; };
+		6E799C471CE8E10D006F7F79 /* EuDistanceAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EuDistanceAOIService.hpp; sourceTree = "<group>"; };
+		6E799C481CE8E10D006F7F79 /* NTreeAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTreeAOIService.cpp; sourceTree = "<group>"; };
+		6E799C491CE8E10D006F7F79 /* NTreeAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTreeAOIService.hpp; sourceTree = "<group>"; };
+		6E799C4A1CE8E10D006F7F79 /* TowerAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAOIService.cpp; sourceTree = "<group>"; };
+		6E799C4B1CE8E10D006F7F79 /* TowerAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TowerAOIService.hpp; sourceTree = "<group>"; };
+		6E799C4D1CE8E10D006F7F79 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		6E799C4E1CE8E10D006F7F79 /* GameObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
+		6E799C4F1CE8E10D006F7F79 /* GameWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
+		6E799C501CE8E10D006F7F79 /* GameWorld.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameWorld.hpp; sourceTree = "<group>"; };
+		6E799C511CE8E10D006F7F79 /* HOGameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HOGameObject.cpp; sourceTree = "<group>"; };
+		6E799C521CE8E10D006F7F79 /* HOGameObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HOGameObject.hpp; sourceTree = "<group>"; };
+		6E799C531CE8E10D006F7F79 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		6E799C791CE8E10D006F7F79 /* EuDistance_NTreeAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistance_NTreeAOI.cpp; sourceTree = "<group>"; };
+		6E799C7A1CE8E10D006F7F79 /* EuDistance_TowerAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistance_TowerAOI.cpp; sourceTree = "<group>"; };
+		6E799C7C1CE8E10D006F7F79 /* BasePerformanceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasePerformanceTest.cpp; sourceTree = "<group>"; };
+		6E799C7D1CE8E10D006F7F79 /* BasePerformanceTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BasePerformanceTest.hpp; sourceTree = "<group>"; };
+		6E799C7E1CE8E10D006F7F79 /* EuDistanceAOITest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistanceAOITest.cpp; sourceTree = "<group>"; };
+		6E799C7F1CE8E10D006F7F79 /* NTreeAOITest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTreeAOITest.cpp; sourceTree = "<group>"; };
+		6E799C801CE8E10D006F7F79 /* TowerAOITest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAOITest.cpp; sourceTree = "<group>"; };
+		6E799C991CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799C9A1CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799C9B1CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799C9C1CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799C9D1CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799C9E1CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
+		6E799CA11CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799CA21CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799CA31CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799CA41CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799CA51CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799CA61CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
+		6E799CA81CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799CA91CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799CAA1CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799CAB1CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799CAC1CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799CAD1CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
+		6E799CAF1CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799CB01CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799CB11CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799CB21CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799CB31CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799CB41CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
+		6E799CB61CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799CB71CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799CB81CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799CB91CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799CBA1CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799CBB1CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
+		6E799CBD1CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799CBE1CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799CBF1CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799CC01CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799CC11CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799CC21CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
+		6E799CC41CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799CC51CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799CC61CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799CC71CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799CC81CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799CC91CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
+		6E799CCB1CE9064B006F7F79 /* data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_init.txt; sourceTree = "<group>"; };
+		6E799CCC1CE9064B006F7F79 /* data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_leave.txt; sourceTree = "<group>"; };
+		6E799CCD1CE9064B006F7F79 /* data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_move.txt; sourceTree = "<group>"; };
+		6E799CCE1CE9064B006F7F79 /* huge_data_init.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_init.txt; sourceTree = "<group>"; };
+		6E799CCF1CE9064B006F7F79 /* huge_data_leave.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_leave.txt; sourceTree = "<group>"; };
+		6E799CD01CE9064B006F7F79 /* huge_data_move.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge_data_move.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6EB89EAB1CE4B5A000043672 /* Frameworks */ = {
+		6E799C221CE8E0F3006F7F79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,135 +144,285 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E60D02C1CE5726D00465B6D /* EuDistanceAOI */ = {
+		6E799C1C1CE8E0F3006F7F79 = {
 			isa = PBXGroup;
 			children = (
-				6E60D02E1CE5726D00465B6D /* EuDistanceAOI.hpp */,
-				6E60D02D1CE5726D00465B6D /* EuDistanceAOI.cpp */,
-			);
-			path = EuDistanceAOI;
-			sourceTree = "<group>";
-		};
-		6E60D0371CE584C400465B6D /* TowerAOI */ = {
-			isa = PBXGroup;
-			children = (
-				6E60D0391CE584C400465B6D /* Tower.hpp */,
-				6E60D0381CE584C400465B6D /* Tower.cpp */,
-				6E60D03B1CE584C400465B6D /* TowerAOI.hpp */,
-				6E60D03A1CE584C400465B6D /* TowerAOI.cpp */,
-			);
-			path = TowerAOI;
-			sourceTree = "<group>";
-		};
-		6E8F790C1CE7047B00E741D4 /* NTreeAOI */ = {
-			isa = PBXGroup;
-			children = (
-				6E8F79171CE7970E00E741D4 /* NTree.hpp */,
-				6E8F79161CE7970E00E741D4 /* NTree.cpp */,
-				6E8F79191CE7970E00E741D4 /* NTreeAOI.hpp */,
-				6E8F79181CE7970E00E741D4 /* NTreeAOI.cpp */,
-			);
-			path = NTreeAOI;
-			sourceTree = "<group>";
-		};
-		6EB89EA51CE4B5A000043672 = {
-			isa = PBXGroup;
-			children = (
-				6EB89EB01CE4B5A000043672 /* HOAOIs */,
-				6EB89EAF1CE4B5A000043672 /* Products */,
+				6E799C271CE8E0F3006F7F79 /* HOAOIs */,
+				6E799C261CE8E0F3006F7F79 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6EB89EAF1CE4B5A000043672 /* Products */ = {
+		6E799C261CE8E0F3006F7F79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EB89EAE1CE4B5A000043672 /* HOAOIs */,
+				6E799C251CE8E0F3006F7F79 /* HOAOIs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EB89EB01CE4B5A000043672 /* HOAOIs */ = {
+		6E799C271CE8E0F3006F7F79 /* HOAOIs */ = {
 			isa = PBXGroup;
 			children = (
-				6E60D0301CE582EC00465B6D /* alias.h */,
-				6E60D0311CE582EC00465B6D /* AOIEventManager.cpp */,
-				6E60D0321CE582EC00465B6D /* AOIEventManager.hpp */,
-				6EB89ED71CE4C16600043672 /* AOIModels */,
-				6EB89EC41CE4C13500043672 /* AOIServices */,
-				6EB89EB81CE4B74000043672 /* GameBasics */,
-				6EB89EC21CE4BB0100043672 /* test.cpp */,
-				6ED099E41CE5D2630033880E /* Tests */,
+				6E799C2F1CE8E10D006F7F79 /* alias.h */,
+				6E799C301CE8E10D006F7F79 /* AOIEventManager.cpp */,
+				6E799C311CE8E10D006F7F79 /* AOIEventManager.hpp */,
+				6E799C321CE8E10D006F7F79 /* AOIModels */,
+				6E799C431CE8E10D006F7F79 /* AOIServices */,
+				6E799C4C1CE8E10D006F7F79 /* GameBasics */,
+				6E799C531CE8E10D006F7F79 /* test.cpp */,
+				6E799C541CE8E10D006F7F79 /* Tests */,
+				6E799C281CE8E0F3006F7F79 /* main.cpp */,
 			);
 			path = HOAOIs;
 			sourceTree = "<group>";
 		};
-		6EB89EB81CE4B74000043672 /* GameBasics */ = {
+		6E799C321CE8E10D006F7F79 /* AOIModels */ = {
 			isa = PBXGroup;
 			children = (
-				6EB89EBC1CE4B74000043672 /* GameWorld.hpp */,
-				6EB89EBB1CE4B74000043672 /* GameWorld.cpp */,
-				6EB89EBA1CE4B74000043672 /* GameObject.hpp */,
-				6EB89EB91CE4B74000043672 /* GameObject.cpp */,
-				6EB89EC01CE4B76600043672 /* HOGameObject.hpp */,
-				6EB89EBF1CE4B76600043672 /* HOGameObject.cpp */,
-			);
-			path = GameBasics;
-			sourceTree = "<group>";
-		};
-		6EB89EC41CE4C13500043672 /* AOIServices */ = {
-			isa = PBXGroup;
-			children = (
-				6E8F79141CE7049000E741D4 /* NTreeAOIService.hpp */,
-				6E8F79131CE7049000E741D4 /* NTreeAOIService.cpp */,
-				6EB89EC61CE4C13500043672 /* AOIService.hpp */,
-				6EB89EC51CE4C13500043672 /* AOIService.cpp */,
-				6E60D0351CE583A100465B6D /* EuDistanceAOIService.hpp */,
-				6E60D0341CE583A100465B6D /* EuDistanceAOIService.cpp */,
-				6E60D03F1CE584D200465B6D /* TowerAOIService.hpp */,
-				6E60D03E1CE584D200465B6D /* TowerAOIService.cpp */,
-			);
-			path = AOIServices;
-			sourceTree = "<group>";
-		};
-		6EB89ED71CE4C16600043672 /* AOIModels */ = {
-			isa = PBXGroup;
-			children = (
-				6E8F790C1CE7047B00E741D4 /* NTreeAOI */,
-				6E60D0371CE584C400465B6D /* TowerAOI */,
-				6E60D02C1CE5726D00465B6D /* EuDistanceAOI */,
-				6EB89ED81CE4C16600043672 /* BaseAOI */,
+				6E799C331CE8E10D006F7F79 /* BaseAOI */,
+				6E799C361CE8E10D006F7F79 /* EuDistanceAOI */,
+				6E799C391CE8E10D006F7F79 /* NTreeAOI */,
+				6E799C3E1CE8E10D006F7F79 /* TowerAOI */,
 			);
 			path = AOIModels;
 			sourceTree = "<group>";
 		};
-		6EB89ED81CE4C16600043672 /* BaseAOI */ = {
+		6E799C331CE8E10D006F7F79 /* BaseAOI */ = {
 			isa = PBXGroup;
 			children = (
-				6EB89EDA1CE4C16600043672 /* BaseAOI.hpp */,
-				6EB89ED91CE4C16600043672 /* BaseAOI.cpp */,
+				6E799C341CE8E10D006F7F79 /* BaseAOI.cpp */,
+				6E799C351CE8E10D006F7F79 /* BaseAOI.hpp */,
 			);
 			path = BaseAOI;
 			sourceTree = "<group>";
 		};
-		6ED099E41CE5D2630033880E /* Tests */ = {
+		6E799C361CE8E10D006F7F79 /* EuDistanceAOI */ = {
 			isa = PBXGroup;
 			children = (
-				6ED099FD1CE5D2630033880E /* EuDistance_TowerAOI.cpp */,
-				6E8F791C1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp */,
+				6E799C371CE8E10D006F7F79 /* EuDistanceAOI.cpp */,
+				6E799C381CE8E10D006F7F79 /* EuDistanceAOI.hpp */,
+			);
+			path = EuDistanceAOI;
+			sourceTree = "<group>";
+		};
+		6E799C391CE8E10D006F7F79 /* NTreeAOI */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C3A1CE8E10D006F7F79 /* NTree.cpp */,
+				6E799C3B1CE8E10D006F7F79 /* NTree.hpp */,
+				6E799C3C1CE8E10D006F7F79 /* NTreeAOI.cpp */,
+				6E799C3D1CE8E10D006F7F79 /* NTreeAOI.hpp */,
+			);
+			path = NTreeAOI;
+			sourceTree = "<group>";
+		};
+		6E799C3E1CE8E10D006F7F79 /* TowerAOI */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C3F1CE8E10D006F7F79 /* Tower.cpp */,
+				6E799C401CE8E10D006F7F79 /* Tower.hpp */,
+				6E799C411CE8E10D006F7F79 /* TowerAOI.cpp */,
+				6E799C421CE8E10D006F7F79 /* TowerAOI.hpp */,
+			);
+			path = TowerAOI;
+			sourceTree = "<group>";
+		};
+		6E799C431CE8E10D006F7F79 /* AOIServices */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C441CE8E10D006F7F79 /* AOIService.cpp */,
+				6E799C451CE8E10D006F7F79 /* AOIService.hpp */,
+				6E799C461CE8E10D006F7F79 /* EuDistanceAOIService.cpp */,
+				6E799C471CE8E10D006F7F79 /* EuDistanceAOIService.hpp */,
+				6E799C481CE8E10D006F7F79 /* NTreeAOIService.cpp */,
+				6E799C491CE8E10D006F7F79 /* NTreeAOIService.hpp */,
+				6E799C4A1CE8E10D006F7F79 /* TowerAOIService.cpp */,
+				6E799C4B1CE8E10D006F7F79 /* TowerAOIService.hpp */,
+			);
+			path = AOIServices;
+			sourceTree = "<group>";
+		};
+		6E799C4C1CE8E10D006F7F79 /* GameBasics */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C4D1CE8E10D006F7F79 /* GameObject.cpp */,
+				6E799C4E1CE8E10D006F7F79 /* GameObject.hpp */,
+				6E799C4F1CE8E10D006F7F79 /* GameWorld.cpp */,
+				6E799C501CE8E10D006F7F79 /* GameWorld.hpp */,
+				6E799C511CE8E10D006F7F79 /* HOGameObject.cpp */,
+				6E799C521CE8E10D006F7F79 /* HOGameObject.hpp */,
+			);
+			path = GameBasics;
+			sourceTree = "<group>";
+		};
+		6E799C541CE8E10D006F7F79 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C961CE9064B006F7F79 /* Datas */,
+				6E799C791CE8E10D006F7F79 /* EuDistance_NTreeAOI.cpp */,
+				6E799C7A1CE8E10D006F7F79 /* EuDistance_TowerAOI.cpp */,
+				6E799C7B1CE8E10D006F7F79 /* PerformanceTests */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		6E799C7B1CE8E10D006F7F79 /* PerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C7C1CE8E10D006F7F79 /* BasePerformanceTest.cpp */,
+				6E799C7D1CE8E10D006F7F79 /* BasePerformanceTest.hpp */,
+				6E799C7E1CE8E10D006F7F79 /* EuDistanceAOITest.cpp */,
+				6E799C801CE8E10D006F7F79 /* TowerAOITest.cpp */,
+				6E799C7F1CE8E10D006F7F79 /* NTreeAOITest.cpp */,
+			);
+			path = PerformanceTests;
+			sourceTree = "<group>";
+		};
+		6E799C961CE9064B006F7F79 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C971CE9064B006F7F79 /* data1 */,
+				6E799C981CE9064B006F7F79 /* data10 */,
+				6E799C9F1CE9064B006F7F79 /* data2 */,
+				6E799CA01CE9064B006F7F79 /* data3 */,
+				6E799CA71CE9064B006F7F79 /* data4 */,
+				6E799CAE1CE9064B006F7F79 /* data5 */,
+				6E799CB51CE9064B006F7F79 /* data6 */,
+				6E799CBC1CE9064B006F7F79 /* data7 */,
+				6E799CC31CE9064B006F7F79 /* data8 */,
+				6E799CCA1CE9064B006F7F79 /* data9 */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		6E799C971CE9064B006F7F79 /* data1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data1;
+			sourceTree = "<group>";
+		};
+		6E799C981CE9064B006F7F79 /* data10 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799C991CE9064B006F7F79 /* data_init.txt */,
+				6E799C9A1CE9064B006F7F79 /* data_leave.txt */,
+				6E799C9B1CE9064B006F7F79 /* data_move.txt */,
+				6E799C9C1CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799C9D1CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799C9E1CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data10;
+			sourceTree = "<group>";
+		};
+		6E799C9F1CE9064B006F7F79 /* data2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data2;
+			sourceTree = "<group>";
+		};
+		6E799CA01CE9064B006F7F79 /* data3 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799CA11CE9064B006F7F79 /* data_init.txt */,
+				6E799CA21CE9064B006F7F79 /* data_leave.txt */,
+				6E799CA31CE9064B006F7F79 /* data_move.txt */,
+				6E799CA41CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799CA51CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799CA61CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data3;
+			sourceTree = "<group>";
+		};
+		6E799CA71CE9064B006F7F79 /* data4 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799CA81CE9064B006F7F79 /* data_init.txt */,
+				6E799CA91CE9064B006F7F79 /* data_leave.txt */,
+				6E799CAA1CE9064B006F7F79 /* data_move.txt */,
+				6E799CAB1CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799CAC1CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799CAD1CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data4;
+			sourceTree = "<group>";
+		};
+		6E799CAE1CE9064B006F7F79 /* data5 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799CAF1CE9064B006F7F79 /* data_init.txt */,
+				6E799CB01CE9064B006F7F79 /* data_leave.txt */,
+				6E799CB11CE9064B006F7F79 /* data_move.txt */,
+				6E799CB21CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799CB31CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799CB41CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data5;
+			sourceTree = "<group>";
+		};
+		6E799CB51CE9064B006F7F79 /* data6 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799CB61CE9064B006F7F79 /* data_init.txt */,
+				6E799CB71CE9064B006F7F79 /* data_leave.txt */,
+				6E799CB81CE9064B006F7F79 /* data_move.txt */,
+				6E799CB91CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799CBA1CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799CBB1CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data6;
+			sourceTree = "<group>";
+		};
+		6E799CBC1CE9064B006F7F79 /* data7 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799CBD1CE9064B006F7F79 /* data_init.txt */,
+				6E799CBE1CE9064B006F7F79 /* data_leave.txt */,
+				6E799CBF1CE9064B006F7F79 /* data_move.txt */,
+				6E799CC01CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799CC11CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799CC21CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data7;
+			sourceTree = "<group>";
+		};
+		6E799CC31CE9064B006F7F79 /* data8 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799CC41CE9064B006F7F79 /* data_init.txt */,
+				6E799CC51CE9064B006F7F79 /* data_leave.txt */,
+				6E799CC61CE9064B006F7F79 /* data_move.txt */,
+				6E799CC71CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799CC81CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799CC91CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data8;
+			sourceTree = "<group>";
+		};
+		6E799CCA1CE9064B006F7F79 /* data9 */ = {
+			isa = PBXGroup;
+			children = (
+				6E799CCB1CE9064B006F7F79 /* data_init.txt */,
+				6E799CCC1CE9064B006F7F79 /* data_leave.txt */,
+				6E799CCD1CE9064B006F7F79 /* data_move.txt */,
+				6E799CCE1CE9064B006F7F79 /* huge_data_init.txt */,
+				6E799CCF1CE9064B006F7F79 /* huge_data_leave.txt */,
+				6E799CD01CE9064B006F7F79 /* huge_data_move.txt */,
+			);
+			path = data9;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EB89EAD1CE4B5A000043672 /* HOAOIs */ = {
+		6E799C241CE8E0F3006F7F79 /* HOAOIs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB89EB51CE4B5A000043672 /* Build configuration list for PBXNativeTarget "HOAOIs" */;
+			buildConfigurationList = 6E799C2C1CE8E0F3006F7F79 /* Build configuration list for PBXNativeTarget "HOAOIs" */;
 			buildPhases = (
-				6EB89EAA1CE4B5A000043672 /* Sources */,
-				6EB89EAB1CE4B5A000043672 /* Frameworks */,
-				6EB89EAC1CE4B5A000043672 /* CopyFiles */,
+				6E799C211CE8E0F3006F7F79 /* Sources */,
+				6E799C221CE8E0F3006F7F79 /* Frameworks */,
+				6E799C231CE8E0F3006F7F79 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -221,69 +430,74 @@
 			);
 			name = HOAOIs;
 			productName = HOAOIs;
-			productReference = 6EB89EAE1CE4B5A000043672 /* HOAOIs */;
+			productReference = 6E799C251CE8E0F3006F7F79 /* HOAOIs */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6EB89EA61CE4B5A000043672 /* Project object */ = {
+		6E799C1D1CE8E0F3006F7F79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Zhejiang University";
 				TargetAttributes = {
-					6EB89EAD1CE4B5A000043672 = {
+					6E799C241CE8E0F3006F7F79 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 6EB89EA91CE4B5A000043672 /* Build configuration list for PBXProject "HOAOIs" */;
+			buildConfigurationList = 6E799C201CE8E0F3006F7F79 /* Build configuration list for PBXProject "HOAOIs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6EB89EA51CE4B5A000043672;
-			productRefGroup = 6EB89EAF1CE4B5A000043672 /* Products */;
+			mainGroup = 6E799C1C1CE8E0F3006F7F79;
+			productRefGroup = 6E799C261CE8E0F3006F7F79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EB89EAD1CE4B5A000043672 /* HOAOIs */,
+				6E799C241CE8E0F3006F7F79 /* HOAOIs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6EB89EAA1CE4B5A000043672 /* Sources */ = {
+		6E799C211CE8E0F3006F7F79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E60D0361CE583A100465B6D /* EuDistanceAOIService.cpp in Sources */,
-				6E60D03D1CE584C400465B6D /* TowerAOI.cpp in Sources */,
-				6EB89EBE1CE4B74000043672 /* GameWorld.cpp in Sources */,
-				6EB89EC31CE4BB0100043672 /* test.cpp in Sources */,
-				6E8F791B1CE7970E00E741D4 /* NTreeAOI.cpp in Sources */,
-				6E8F791D1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp in Sources */,
-				6E60D03C1CE584C400465B6D /* Tower.cpp in Sources */,
-				6E60D0331CE582EC00465B6D /* AOIEventManager.cpp in Sources */,
-				6ED09A0C1CE5D2630033880E /* EuDistance_TowerAOI.cpp in Sources */,
-				6EB89EBD1CE4B74000043672 /* GameObject.cpp in Sources */,
-				6E60D02F1CE5726D00465B6D /* EuDistanceAOI.cpp in Sources */,
-				6EB89EC11CE4B76600043672 /* HOGameObject.cpp in Sources */,
-				6E8F79151CE7049000E741D4 /* NTreeAOIService.cpp in Sources */,
-				6EB89EEB1CE4C16600043672 /* BaseAOI.cpp in Sources */,
-				6EB89ED11CE4C13500043672 /* AOIService.cpp in Sources */,
-				6E60D0401CE584D200465B6D /* TowerAOIService.cpp in Sources */,
-				6E8F791A1CE7970E00E741D4 /* NTree.cpp in Sources */,
+				6E799C941CE8E10D006F7F79 /* NTreeAOITest.cpp in Sources */,
+				6E799C831CE8E10D006F7F79 /* EuDistanceAOI.cpp in Sources */,
+				6E799C8A1CE8E10D006F7F79 /* NTreeAOIService.cpp in Sources */,
+				6E799C8E1CE8E10D006F7F79 /* HOGameObject.cpp in Sources */,
+				6E799C8C1CE8E10D006F7F79 /* GameObject.cpp in Sources */,
+				6E799C811CE8E10D006F7F79 /* AOIEventManager.cpp in Sources */,
+				6E799C901CE8E10D006F7F79 /* EuDistance_NTreeAOI.cpp in Sources */,
+				6E799C861CE8E10D006F7F79 /* Tower.cpp in Sources */,
+				6E799C821CE8E10D006F7F79 /* BaseAOI.cpp in Sources */,
+				6E799C291CE8E0F3006F7F79 /* main.cpp in Sources */,
+				6E799C851CE8E10D006F7F79 /* NTreeAOI.cpp in Sources */,
+				6E799C8F1CE8E10D006F7F79 /* test.cpp in Sources */,
+				6E799C891CE8E10D006F7F79 /* EuDistanceAOIService.cpp in Sources */,
+				6E799C951CE8E10D006F7F79 /* TowerAOITest.cpp in Sources */,
+				6E799C881CE8E10D006F7F79 /* AOIService.cpp in Sources */,
+				6E799C921CE8E10D006F7F79 /* BasePerformanceTest.cpp in Sources */,
+				6E799C841CE8E10D006F7F79 /* NTree.cpp in Sources */,
+				6E799C911CE8E10D006F7F79 /* EuDistance_TowerAOI.cpp in Sources */,
+				6E799C931CE8E10D006F7F79 /* EuDistanceAOITest.cpp in Sources */,
+				6E799C871CE8E10D006F7F79 /* TowerAOI.cpp in Sources */,
+				6E799C8D1CE8E10D006F7F79 /* GameWorld.cpp in Sources */,
+				6E799C8B1CE8E10D006F7F79 /* TowerAOIService.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6EB89EB31CE4B5A000043672 /* Debug */ = {
+		6E799C2A1CE8E0F3006F7F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -327,7 +541,7 @@
 			};
 			name = Debug;
 		};
-		6EB89EB41CE4B5A000043672 /* Release */ = {
+		6E799C2B1CE8E0F3006F7F79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,14 +578,14 @@
 			};
 			name = Release;
 		};
-		6EB89EB61CE4B5A000043672 /* Debug */ = {
+		6E799C2D1CE8E0F3006F7F79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		6EB89EB71CE4B5A000043672 /* Release */ = {
+		6E799C2E1CE8E0F3006F7F79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,25 +595,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EB89EA91CE4B5A000043672 /* Build configuration list for PBXProject "HOAOIs" */ = {
+		6E799C201CE8E0F3006F7F79 /* Build configuration list for PBXProject "HOAOIs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB89EB31CE4B5A000043672 /* Debug */,
-				6EB89EB41CE4B5A000043672 /* Release */,
+				6E799C2A1CE8E0F3006F7F79 /* Debug */,
+				6E799C2B1CE8E0F3006F7F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EB89EB51CE4B5A000043672 /* Build configuration list for PBXNativeTarget "HOAOIs" */ = {
+		6E799C2C1CE8E0F3006F7F79 /* Build configuration list for PBXNativeTarget "HOAOIs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB89EB61CE4B5A000043672 /* Debug */,
-				6EB89EB71CE4B5A000043672 /* Release */,
+				6E799C2D1CE8E0F3006F7F79 /* Debug */,
+				6E799C2E1CE8E0F3006F7F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6EB89EA61CE4B5A000043672 /* Project object */;
+	rootObject = 6E799C1D1CE8E0F3006F7F79 /* Project object */;
 }

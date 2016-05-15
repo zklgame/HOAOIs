@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EB89EAD1CE4B5A000043672"
+               BlueprintIdentifier = "6E799C241CE8E0F3006F7F79"
                BuildableName = "HOAOIs"
                BlueprintName = "HOAOIs"
                ReferencedContainer = "container:HOAOIs.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EB89EAD1CE4B5A000043672"
+            BlueprintIdentifier = "6E799C241CE8E0F3006F7F79"
             BuildableName = "HOAOIs"
             BlueprintName = "HOAOIs"
             ReferencedContainer = "container:HOAOIs.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EB89EAD1CE4B5A000043672"
+            BlueprintIdentifier = "6E799C241CE8E0F3006F7F79"
             BuildableName = "HOAOIs"
             BlueprintName = "HOAOIs"
             ReferencedContainer = "container:HOAOIs.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EB89EAD1CE4B5A000043672"
+            BlueprintIdentifier = "6E799C241CE8E0F3006F7F79"
             BuildableName = "HOAOIs"
             BlueprintName = "HOAOIs"
             ReferencedContainer = "container:HOAOIs.xcodeproj">

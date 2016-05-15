@@ -24,6 +24,7 @@ public:
 private:
     // basic
     FILE *fp;
+    
     int width = 50000;
     int height = 50000;
     
@@ -33,10 +34,17 @@ private:
     int maxRange = 1000;
     int maxMove = 500;
     
+    int hugeObjectNum = 5000;
+    int hugeMovedNum = 2500;
+    int hugeLeaveNum = 2500;
+    int hugeSizeBase = 600;
+    int hugeSizeRange = 600;
+    
     // to set
     vector<GameObject *> gameObjects, movedObjects, leavedObjects;
-    vector<int> movedPosX;
-    vector<int> movedPosY;
+    vector<HOGameObject *> hugeGameObjects, hugeMovedObjects, hugeLeavedObjects;
+    vector<int> movedPosX, movedPosY;
+    vector<int> hugeMovedMinPosX, hugeMovedMinPosY, hugeMovedMaxPosX, hugeMovedMaxPosY;
     
     void testAdd(int i);
     void testMove(int i);

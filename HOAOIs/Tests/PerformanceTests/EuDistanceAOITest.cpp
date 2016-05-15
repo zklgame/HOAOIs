@@ -15,7 +15,7 @@ int main11() {
     
     cout << "Test " << i + 1 << " :" << endl;
     BasePerformanceTest *test = new BasePerformanceTest();
-    test -> world -> aoi = new EuDistanceAOIService();
+    test -> world -> aoi = new EuDistanceAOIService(test -> world -> width, test -> world -> length);
     test -> test(i + 1);
     delete test -> world -> aoi;
     delete test;
