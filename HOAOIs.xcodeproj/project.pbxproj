@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E60D02F1CE5726D00465B6D /* EuDistanceAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D02D1CE5726D00465B6D /* EuDistanceAOI.cpp */; };
+		6E60D0331CE582EC00465B6D /* AOIEventManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D0311CE582EC00465B6D /* AOIEventManager.cpp */; };
+		6E60D0361CE583A100465B6D /* EuDistanceAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D0341CE583A100465B6D /* EuDistanceAOIService.cpp */; };
+		6E60D03C1CE584C400465B6D /* Tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D0381CE584C400465B6D /* Tower.cpp */; };
+		6E60D03D1CE584C400465B6D /* TowerAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D03A1CE584C400465B6D /* TowerAOI.cpp */; };
+		6E60D0401CE584D200465B6D /* TowerAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E60D03E1CE584D200465B6D /* TowerAOIService.cpp */; };
+		6E8F79151CE7049000E741D4 /* NTreeAOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F79131CE7049000E741D4 /* NTreeAOIService.cpp */; };
+		6E8F791A1CE7970E00E741D4 /* NTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F79161CE7970E00E741D4 /* NTree.cpp */; };
+		6E8F791B1CE7970E00E741D4 /* NTreeAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F79181CE7970E00E741D4 /* NTreeAOI.cpp */; };
+		6E8F791D1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F791C1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp */; };
+		6EB89EBD1CE4B74000043672 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EB91CE4B74000043672 /* GameObject.cpp */; };
+		6EB89EBE1CE4B74000043672 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EBB1CE4B74000043672 /* GameWorld.cpp */; };
+		6EB89EC11CE4B76600043672 /* HOGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EBF1CE4B76600043672 /* HOGameObject.cpp */; };
+		6EB89EC31CE4BB0100043672 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EC21CE4BB0100043672 /* test.cpp */; };
+		6EB89ED11CE4C13500043672 /* AOIService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89EC51CE4C13500043672 /* AOIService.cpp */; };
+		6EB89EEB1CE4C16600043672 /* BaseAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89ED91CE4C16600043672 /* BaseAOI.cpp */; };
+		6ED09A0C1CE5D2630033880E /* EuDistance_TowerAOI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ED099FD1CE5D2630033880E /* EuDistance_TowerAOI.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EB89EAC1CE4B5A000043672 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E60D02D1CE5726D00465B6D /* EuDistanceAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistanceAOI.cpp; sourceTree = "<group>"; };
+		6E60D02E1CE5726D00465B6D /* EuDistanceAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EuDistanceAOI.hpp; sourceTree = "<group>"; };
+		6E60D0301CE582EC00465B6D /* alias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alias.h; sourceTree = "<group>"; };
+		6E60D0311CE582EC00465B6D /* AOIEventManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AOIEventManager.cpp; sourceTree = "<group>"; };
+		6E60D0321CE582EC00465B6D /* AOIEventManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AOIEventManager.hpp; sourceTree = "<group>"; };
+		6E60D0341CE583A100465B6D /* EuDistanceAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistanceAOIService.cpp; sourceTree = "<group>"; };
+		6E60D0351CE583A100465B6D /* EuDistanceAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EuDistanceAOIService.hpp; sourceTree = "<group>"; };
+		6E60D0381CE584C400465B6D /* Tower.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tower.cpp; sourceTree = "<group>"; };
+		6E60D0391CE584C400465B6D /* Tower.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tower.hpp; sourceTree = "<group>"; };
+		6E60D03A1CE584C400465B6D /* TowerAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAOI.cpp; sourceTree = "<group>"; };
+		6E60D03B1CE584C400465B6D /* TowerAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TowerAOI.hpp; sourceTree = "<group>"; };
+		6E60D03E1CE584D200465B6D /* TowerAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAOIService.cpp; sourceTree = "<group>"; };
+		6E60D03F1CE584D200465B6D /* TowerAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TowerAOIService.hpp; sourceTree = "<group>"; };
+		6E8F79131CE7049000E741D4 /* NTreeAOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTreeAOIService.cpp; sourceTree = "<group>"; };
+		6E8F79141CE7049000E741D4 /* NTreeAOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTreeAOIService.hpp; sourceTree = "<group>"; };
+		6E8F79161CE7970E00E741D4 /* NTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTree.cpp; sourceTree = "<group>"; };
+		6E8F79171CE7970E00E741D4 /* NTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTree.hpp; sourceTree = "<group>"; };
+		6E8F79181CE7970E00E741D4 /* NTreeAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NTreeAOI.cpp; sourceTree = "<group>"; };
+		6E8F79191CE7970E00E741D4 /* NTreeAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NTreeAOI.hpp; sourceTree = "<group>"; };
+		6E8F791C1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistance_NTreeAOI.cpp; sourceTree = "<group>"; };
+		6EB89EAE1CE4B5A000043672 /* HOAOIs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HOAOIs; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB89EB91CE4B74000043672 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		6EB89EBA1CE4B74000043672 /* GameObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
+		6EB89EBB1CE4B74000043672 /* GameWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
+		6EB89EBC1CE4B74000043672 /* GameWorld.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameWorld.hpp; sourceTree = "<group>"; };
+		6EB89EBF1CE4B76600043672 /* HOGameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HOGameObject.cpp; sourceTree = "<group>"; };
+		6EB89EC01CE4B76600043672 /* HOGameObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HOGameObject.hpp; sourceTree = "<group>"; };
+		6EB89EC21CE4BB0100043672 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		6EB89EC51CE4C13500043672 /* AOIService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AOIService.cpp; sourceTree = "<group>"; };
+		6EB89EC61CE4C13500043672 /* AOIService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AOIService.hpp; sourceTree = "<group>"; };
+		6EB89ED91CE4C16600043672 /* BaseAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseAOI.cpp; sourceTree = "<group>"; };
+		6EB89EDA1CE4C16600043672 /* BaseAOI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BaseAOI.hpp; sourceTree = "<group>"; };
+		6ED099FD1CE5D2630033880E /* EuDistance_TowerAOI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EuDistance_TowerAOI.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB89EAB1CE4B5A000043672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E60D02C1CE5726D00465B6D /* EuDistanceAOI */ = {
+			isa = PBXGroup;
+			children = (
+				6E60D02E1CE5726D00465B6D /* EuDistanceAOI.hpp */,
+				6E60D02D1CE5726D00465B6D /* EuDistanceAOI.cpp */,
+			);
+			path = EuDistanceAOI;
+			sourceTree = "<group>";
+		};
+		6E60D0371CE584C400465B6D /* TowerAOI */ = {
+			isa = PBXGroup;
+			children = (
+				6E60D0391CE584C400465B6D /* Tower.hpp */,
+				6E60D0381CE584C400465B6D /* Tower.cpp */,
+				6E60D03B1CE584C400465B6D /* TowerAOI.hpp */,
+				6E60D03A1CE584C400465B6D /* TowerAOI.cpp */,
+			);
+			path = TowerAOI;
+			sourceTree = "<group>";
+		};
+		6E8F790C1CE7047B00E741D4 /* NTreeAOI */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F79171CE7970E00E741D4 /* NTree.hpp */,
+				6E8F79161CE7970E00E741D4 /* NTree.cpp */,
+				6E8F79191CE7970E00E741D4 /* NTreeAOI.hpp */,
+				6E8F79181CE7970E00E741D4 /* NTreeAOI.cpp */,
+			);
+			path = NTreeAOI;
+			sourceTree = "<group>";
+		};
+		6EB89EA51CE4B5A000043672 = {
+			isa = PBXGroup;
+			children = (
+				6EB89EB01CE4B5A000043672 /* HOAOIs */,
+				6EB89EAF1CE4B5A000043672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB89EAF1CE4B5A000043672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB89EAE1CE4B5A000043672 /* HOAOIs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB89EB01CE4B5A000043672 /* HOAOIs */ = {
+			isa = PBXGroup;
+			children = (
+				6E60D0301CE582EC00465B6D /* alias.h */,
+				6E60D0311CE582EC00465B6D /* AOIEventManager.cpp */,
+				6E60D0321CE582EC00465B6D /* AOIEventManager.hpp */,
+				6EB89ED71CE4C16600043672 /* AOIModels */,
+				6EB89EC41CE4C13500043672 /* AOIServices */,
+				6EB89EB81CE4B74000043672 /* GameBasics */,
+				6EB89EC21CE4BB0100043672 /* test.cpp */,
+				6ED099E41CE5D2630033880E /* Tests */,
+			);
+			path = HOAOIs;
+			sourceTree = "<group>";
+		};
+		6EB89EB81CE4B74000043672 /* GameBasics */ = {
+			isa = PBXGroup;
+			children = (
+				6EB89EBC1CE4B74000043672 /* GameWorld.hpp */,
+				6EB89EBB1CE4B74000043672 /* GameWorld.cpp */,
+				6EB89EBA1CE4B74000043672 /* GameObject.hpp */,
+				6EB89EB91CE4B74000043672 /* GameObject.cpp */,
+				6EB89EC01CE4B76600043672 /* HOGameObject.hpp */,
+				6EB89EBF1CE4B76600043672 /* HOGameObject.cpp */,
+			);
+			path = GameBasics;
+			sourceTree = "<group>";
+		};
+		6EB89EC41CE4C13500043672 /* AOIServices */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F79141CE7049000E741D4 /* NTreeAOIService.hpp */,
+				6E8F79131CE7049000E741D4 /* NTreeAOIService.cpp */,
+				6EB89EC61CE4C13500043672 /* AOIService.hpp */,
+				6EB89EC51CE4C13500043672 /* AOIService.cpp */,
+				6E60D0351CE583A100465B6D /* EuDistanceAOIService.hpp */,
+				6E60D0341CE583A100465B6D /* EuDistanceAOIService.cpp */,
+				6E60D03F1CE584D200465B6D /* TowerAOIService.hpp */,
+				6E60D03E1CE584D200465B6D /* TowerAOIService.cpp */,
+			);
+			path = AOIServices;
+			sourceTree = "<group>";
+		};
+		6EB89ED71CE4C16600043672 /* AOIModels */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F790C1CE7047B00E741D4 /* NTreeAOI */,
+				6E60D0371CE584C400465B6D /* TowerAOI */,
+				6E60D02C1CE5726D00465B6D /* EuDistanceAOI */,
+				6EB89ED81CE4C16600043672 /* BaseAOI */,
+			);
+			path = AOIModels;
+			sourceTree = "<group>";
+		};
+		6EB89ED81CE4C16600043672 /* BaseAOI */ = {
+			isa = PBXGroup;
+			children = (
+				6EB89EDA1CE4C16600043672 /* BaseAOI.hpp */,
+				6EB89ED91CE4C16600043672 /* BaseAOI.cpp */,
+			);
+			path = BaseAOI;
+			sourceTree = "<group>";
+		};
+		6ED099E41CE5D2630033880E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6ED099FD1CE5D2630033880E /* EuDistance_TowerAOI.cpp */,
+				6E8F791C1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB89EAD1CE4B5A000043672 /* HOAOIs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB89EB51CE4B5A000043672 /* Build configuration list for PBXNativeTarget "HOAOIs" */;
+			buildPhases = (
+				6EB89EAA1CE4B5A000043672 /* Sources */,
+				6EB89EAB1CE4B5A000043672 /* Frameworks */,
+				6EB89EAC1CE4B5A000043672 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOAOIs;
+			productName = HOAOIs;
+			productReference = 6EB89EAE1CE4B5A000043672 /* HOAOIs */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB89EA61CE4B5A000043672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zhejiang University";
+				TargetAttributes = {
+					6EB89EAD1CE4B5A000043672 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6EB89EA91CE4B5A000043672 /* Build configuration list for PBXProject "HOAOIs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EB89EA51CE4B5A000043672;
+			productRefGroup = 6EB89EAF1CE4B5A000043672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB89EAD1CE4B5A000043672 /* HOAOIs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB89EAA1CE4B5A000043672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E60D0361CE583A100465B6D /* EuDistanceAOIService.cpp in Sources */,
+				6E60D03D1CE584C400465B6D /* TowerAOI.cpp in Sources */,
+				6EB89EBE1CE4B74000043672 /* GameWorld.cpp in Sources */,
+				6EB89EC31CE4BB0100043672 /* test.cpp in Sources */,
+				6E8F791B1CE7970E00E741D4 /* NTreeAOI.cpp in Sources */,
+				6E8F791D1CE7ADBA00E741D4 /* EuDistance_NTreeAOI.cpp in Sources */,
+				6E60D03C1CE584C400465B6D /* Tower.cpp in Sources */,
+				6E60D0331CE582EC00465B6D /* AOIEventManager.cpp in Sources */,
+				6ED09A0C1CE5D2630033880E /* EuDistance_TowerAOI.cpp in Sources */,
+				6EB89EBD1CE4B74000043672 /* GameObject.cpp in Sources */,
+				6E60D02F1CE5726D00465B6D /* EuDistanceAOI.cpp in Sources */,
+				6EB89EC11CE4B76600043672 /* HOGameObject.cpp in Sources */,
+				6E8F79151CE7049000E741D4 /* NTreeAOIService.cpp in Sources */,
+				6EB89EEB1CE4C16600043672 /* BaseAOI.cpp in Sources */,
+				6EB89ED11CE4C13500043672 /* AOIService.cpp in Sources */,
+				6E60D0401CE584D200465B6D /* TowerAOIService.cpp in Sources */,
+				6E8F791A1CE7970E00E741D4 /* NTree.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6EB89EB31CE4B5A000043672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6EB89EB41CE4B5A000043672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6EB89EB61CE4B5A000043672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EB89EB71CE4B5A000043672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB89EA91CE4B5A000043672 /* Build configuration list for PBXProject "HOAOIs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89EB31CE4B5A000043672 /* Debug */,
+				6EB89EB41CE4B5A000043672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB89EB51CE4B5A000043672 /* Build configuration list for PBXNativeTarget "HOAOIs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89EB61CE4B5A000043672 /* Debug */,
+				6EB89EB71CE4B5A000043672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB89EA61CE4B5A000043672 /* Project object */;
+}
