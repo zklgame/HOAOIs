@@ -9,9 +9,9 @@
 #include "BasePerformanceTest.hpp"
 #include "../../AOIServices/EuDistanceAOIService.hpp"
 
-int main11() {
+int main() {
     
-    int i = 1;
+    int i = 0;
     
     cout << "Test " << i + 1 << " :" << endl;
     BasePerformanceTest *test = new BasePerformanceTest();

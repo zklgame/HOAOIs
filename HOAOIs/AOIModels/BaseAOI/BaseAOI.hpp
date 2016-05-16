@@ -179,7 +179,7 @@ protected:
     virtual map<entity_t, GameObject *> findPublishersInRange(entity_t objId, position_t posX, position_t posY, position_t range) = 0;
     virtual map<entity_t, GameObject *> findPublishersInRangeForHO(entity_t objId, position_t minPosX, position_t minPosY, position_t maxPosX, position_t maxPosY, position_t range) = 0;
     
-    inline virtual bool isInRange2(position_t posX, position_t posY, position_t otherPosX, position_t otherPosY, position_t range) {
+    inline virtual bool isInRange2(int32_t posX, int32_t posY, int32_t otherPosX, int32_t otherPosY, int32_t range) {
         position_t distance2 = (posX - otherPosX) * (posX - otherPosX) + (posY - otherPosY) * (posY - otherPosY);
         return distance2 <= range * range;
     }

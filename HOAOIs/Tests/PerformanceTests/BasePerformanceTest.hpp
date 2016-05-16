@@ -25,20 +25,20 @@ private:
     // basic
     FILE *fp;
     
-    int width = 50000;
-    int height = 50000;
+    int width = 25000;
+    int height = 25000;
     
-    int objectNum = 50000;
-    int movedNum = 25000;
-    int leaveNum = 25000;
-    int maxRange = 1000;
-    int maxMove = 500;
+    int objectNum = 25000;
+    int movedNum = 12500;
+    int leaveNum = 12500;
+    int maxRange = 500;
+    int maxMove = 250;
     
-    int hugeObjectNum = 5000;
-    int hugeMovedNum = 2500;
-    int hugeLeaveNum = 2500;
-    int hugeSizeBase = 600;
-    int hugeSizeRange = 600;
+    int hugeObjectNum = 2500;
+    int hugeMovedNum = 1250;
+    int hugeLeaveNum = 1250;
+    int hugeSizeBase = 300;
+    int hugeSizeRange = 300;
     
     // to set
     vector<GameObject *> gameObjects, movedObjects, leavedObjects;

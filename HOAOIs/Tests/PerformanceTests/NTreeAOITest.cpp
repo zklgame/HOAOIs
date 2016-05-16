@@ -9,13 +9,13 @@
 #include "BasePerformanceTest.hpp"
 #include "../../AOIServices/NTreeAOIService.hpp"
 
-int main() {
+int main33() {
     
     int i = 0;
     
     cout << "Test " << i + 1 << " :" << endl;
     BasePerformanceTest *test = new BasePerformanceTest();
-    test -> world -> aoi = new NTreeAOIService(test -> world -> width, test -> world -> length, 1250, 10);
+    test -> world -> aoi = new NTreeAOIService(test -> world -> width, test -> world -> length, 625, 10);
     test -> test(i + 1);
     delete test -> world -> aoi;
     delete test;

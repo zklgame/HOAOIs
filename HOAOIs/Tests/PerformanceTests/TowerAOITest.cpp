@@ -11,10 +11,10 @@
 
 int main22() {
     
-    int i = 1;
+    int i = 0;
     cout << "Test " << i + 1 << " :" << endl;
     BasePerformanceTest *test = new BasePerformanceTest();
-    test -> world -> aoi = new TowerAOIService(test -> world -> width, test -> world -> length, 1250, 1250);
+    test -> world -> aoi = new TowerAOIService(test -> world -> width, test -> world -> length, 625, 625);
     test -> test(i + 1);
     delete test -> world -> aoi;
     delete test;

@@ -135,8 +135,8 @@ void BasePerformanceTest::initGame(int i) {
             movedPosX.push_back(posX);
             movedPosY.push_back(posY);
         } else {
-            tmpX = gameObjects[id] -> posX + posX;
-            tmpY = gameObjects[id] -> posY + posY;
+            tmpX = int(gameObjects[id] -> posX + posX);
+            tmpY = int(gameObjects[id] -> posY + posY);
             if (tmpX < 0) {
                 tmpX = 0;
             } else if (tmpX >= width) {
@@ -180,7 +180,7 @@ void BasePerformanceTest::initGame(int i) {
                 hugeMovedMaxPosX.push_back(tmpX);
                 hugeMovedMinPosX.push_back(hugeGameObjects[id - objectNum] -> minPosX - hugeGameObjects[id - objectNum] -> maxPosX + tmpX);
             } else {
-                tmpX = hugeGameObjects[id - objectNum] -> minPosX + posX;
+                tmpX = int(hugeGameObjects[id - objectNum] -> minPosX + posX);
                 if (tmpX < 0) {
                     tmpX = 0;
                 }
@@ -195,7 +195,7 @@ void BasePerformanceTest::initGame(int i) {
                 hugeMovedMaxPosY.push_back(tmpY);
                 hugeMovedMinPosY.push_back(hugeGameObjects[id - objectNum] -> minPosY - hugeGameObjects[id - objectNum] -> maxPosY + tmpY);
             } else {
-                tmpY = hugeGameObjects[id - objectNum] -> minPosY + posY;
+                tmpY = int(hugeGameObjects[id - objectNum] -> minPosY + posY);
                 if (tmpY < 0) {
                     tmpY = 0;
                 }
